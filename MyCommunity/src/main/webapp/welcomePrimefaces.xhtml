@@ -39,7 +39,39 @@
                 </p:layoutUnit>
 
                 <p:layoutUnit position="center">
-                    Welcome to PrimeFaces
+                    <h:form>
+                        <h:outputLabel value="First Name "/><br/>
+                        <h:inputText id="firstName"/><br/>
+                        <h:outputLabel value="Last Name "/><br/>
+                        <h:inputText id="lastName"/><br/>
+                       
+                        <h:outputLabel value="Address "/><br/>
+                        <h:inputText id="address"/><br/>
+                         <h:outputLabel value="City"/><br/>
+                        <h:inputText id="city"/><br/>
+                        <h:outputLabel value="State "/><br/>
+                        <h:inputText id="state"/><br/>
+                        <h:outputLabel value="Country "/><br/>
+                        <h:selectOneMenu id="country">
+                            <f:selectItem  itemLabel="Nepal"/>
+                            <f:selectItem  itemLabel="USA"/>
+                             <f:selectItem  itemLabel="Uk"/>
+                            <f:selectItem  itemLabel="Australia"/>
+                            
+                        </h:selectOneMenu><br/>
+                   
+                        <h:outputLabel value="Phone No "/><br/>
+                        <h:inputText id="phoneno"/><br/>
+                        <h:outputLabel value="Email "/><br/>
+                        <h:inputText id="email"/><br/>
+                        <h:outputLabel value="Gender"/><br/>
+                        <h:selectOneRadio id="gender">
+                            <f:selectItem  itemLabel="Male"/>
+                            <f:selectItem  itemLabel="Female"/>
+                        </h:selectOneRadio><br/>
+                        <h:commandButton action="#" value="Submit"/>
+                        
+                    </h:form>
                 </p:layoutUnit>
 
             </p:layout>
