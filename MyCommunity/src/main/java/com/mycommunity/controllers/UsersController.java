@@ -1,5 +1,7 @@
-package com.mycommunity.entities;
+package com.mycommunity.controllers;
 
+import com.mycommunity.entities.Users;
+import com.mycommunity.facade.UsersFacade;
 import com.mycommunity.entities.util.JsfUtil;
 import com.mycommunity.entities.util.PaginationHelper;
 
