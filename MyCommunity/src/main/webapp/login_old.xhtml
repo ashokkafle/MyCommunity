@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:jsf="http://xmlns.jcp.org/jsf">
+    <h:head>
+        <title>User Login </title>
+        <link rel="stylesheet" type="text/css" href="login.css"/>
+    </h:head>
+    <h:body>
+        <div class="container">
+            <div class="login">
+                <h1>Login</h1>
+                <h:form>
+                    <!--<h:outputLabel value="User Name "/><br/>-->
+                    <p><input type="text" name="name" jsf:id="name" placeholder="Name"/></p>
+                   
+                    <p><input type="password" name="password" jsf:id="password" placeholder="Password"/></p>
+                    <p class="remember_me">
+                    <input type="checkbox" name="rememberme" jsf:id="rememberme"/> Remember Me<br/>
+                    </p>
+                    <br/><br/>
+                    <p> <input type="submit" jsf:id="login" value="Login"/></p>
+
+
+                </h:form>
+            </div>
+        </div>
+    </h:body>
+</html>
+
